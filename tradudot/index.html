@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tradutor</title>
+
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <textarea class="input-text"></textarea>
+
+
+        <div class="controle">
+            <select class="idioma">
+                <option value="en">ingles</option>
+                <option value="es">espanhol</option>
+                <option value="it">italiano</option>
+                <option value="de">alemao</option>
+            </select>
+
+            <button onclick="traduzir()">
+                <img src="img/traduzir.svg">
+            </button>
+ 
+            <button onclick="ouvirvoz()">
+                <img src="img/microfone.svg">
+            </button>
+        </div>
+
+        <div class="resultado">
+            <h3 class="titulo-traducao">traducao</h3>
+            <p class="traducao">traducao aqui...</p>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
